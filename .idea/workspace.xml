@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5836b8a7-b57e-4294-8767-8a4ab481735f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attributes/default.rb" afterPath="$PROJECT_DIR$/attributes/default.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipes/default.rb" afterPath="$PROJECT_DIR$/recipes/default.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipes/monit.rb" afterPath="$PROJECT_DIR$/recipes/monit.rb" />
     </list>
     <ignored path="opsworks_elasticsearch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recipes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.6486486" vertical-offset="0" max-vertical-offset="740">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -67,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monit.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="monit.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipes/monit.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
               <folding />
             </state>
@@ -117,9 +115,9 @@
         <option value="$PROJECT_DIR$/templates/default/elasticsearch_monitrc.conf.erb" />
         <option value="$PROJECT_DIR$/recipes/allocation_awareness.rb" />
         <option value="$PROJECT_DIR$/metadata.rb" />
-        <option value="$PROJECT_DIR$/recipes/default.rb" />
         <option value="$PROJECT_DIR$/attributes/default.rb" />
         <option value="$PROJECT_DIR$/recipes/monit.rb" />
+        <option value="$PROJECT_DIR$/recipes/default.rb" />
       </list>
     </option>
   </component>
@@ -433,14 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recipes/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/attributes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
@@ -461,6 +451,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
           <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6486486" vertical-offset="0" max-vertical-offset="740">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
         </state>
       </provider>
