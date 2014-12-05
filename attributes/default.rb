@@ -7,7 +7,7 @@ default[:elasticsearch][:gateway] = { expected_nodes: 1 }
 
 # help ElasticSearch spread data redundantly in separate zones
 default[:elasticsearch][:custom_config]['cluster.routing.allocation.awareness.attributes'] = 'rack_id'
-detault[:elasticsearch][:custom_config]['node.rack_id'] = "#{node[:opsworks][:instance][:availability_zone]}"
+default[:elasticsearch][:custom_config]['node.rack_id'] = "#{node[:opsworks][:instance][:availability_zone]}"
 
 # configure aws cloud plugin to automate discovery of the rest of the cluster (need to run recipe elasticsearch::aws)
 default[:elasticsearch][:discovery][:type] = 'ec2'
