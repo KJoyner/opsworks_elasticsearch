@@ -1,3 +1,5 @@
+include_attribute 'opsworks_agent_monit::default'
+
 default[:elasticsearch][:version] = "1.1.1"
 
 # specify parameters around the gateway that allows elasticseach to recover data from EBS volumes if full restart

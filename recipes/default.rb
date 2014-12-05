@@ -27,7 +27,7 @@ include_recipe 'elasticsearch::aws'
 # install, configure and run nginx as a reverse proxy to elasticsearch
 include_recipe 'elasticsearch::proxy'
 
-# setup monit for elasticsearch (need to account for Opswork already using on monit)
+# setup monit for elasticsearch (need to account for Opswork already using monit)
 include_recipe 'opsworks_elasticsearch::monit'
 
 # execute 'disable default nginx site' do
