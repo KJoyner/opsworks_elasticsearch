@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5836b8a7-b57e-4294-8767-8a4ab481735f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attributes/default.rb" afterPath="$PROJECT_DIR$/attributes/default.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipes/default.rb" afterPath="$PROJECT_DIR$/recipes/default.rb" />
     </list>
     <ignored path="opsworks_elasticsearch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,20 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recipes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-              <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="740">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/attributes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18243243" vertical-offset="0" max-vertical-offset="740">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
@@ -116,8 +116,8 @@
         <option value="$PROJECT_DIR$/templates/default/elasticsearch_monitrc.conf.erb" />
         <option value="$PROJECT_DIR$/recipes/allocation_awareness.rb" />
         <option value="$PROJECT_DIR$/metadata.rb" />
-        <option value="$PROJECT_DIR$/recipes/default.rb" />
         <option value="$PROJECT_DIR$/attributes/default.rb" />
+        <option value="$PROJECT_DIR$/recipes/default.rb" />
       </list>
     </option>
   </component>
@@ -447,18 +447,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recipes/default.rb">
+    <entry file="file://$PROJECT_DIR$/attributes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/attributes/default.rb">
+    <entry file="file://$PROJECT_DIR$/recipes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18243243" vertical-offset="0" max-vertical-offset="740">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="740">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
