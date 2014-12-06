@@ -1,6 +1,10 @@
 include_attribute 'opsworks_agent_monit::default'
 
 default[:elasticsearch][:version] = "1.1.1"
+default[:elasticsearch][:host]             = 'http://download.elasticsearch.org'
+default[:elasticsearch][:repository]       = 'elasticsearch/elasticsearch'
+default[:elasticsearch][:filename]         = "elasticsearch-#{node.elasticsearch[:version]}.tar.gz"
+default[:elasticsearch][:download_url]     = [node.elasticsearch[:host], node.elasticsearch[:repository], node.elasticsearch[:filename]].join('/')
 
 # specify parameters around the gateway that allows elasticseach to recover data from EBS volumes if full restart
 # of the cluster is performed!
