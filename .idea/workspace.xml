@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5836b8a7-b57e-4294-8767-8a4ab481735f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attributes/default.rb" afterPath="$PROJECT_DIR$/attributes/default.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipes/monit.rb" afterPath="$PROJECT_DIR$/recipes/monit.rb" />
     </list>
     <ignored path="opsworks_elasticsearch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/attributes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.59659094" vertical-offset="0" max-vertical-offset="704">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -501,7 +500,7 @@
     <entry file="file://$PROJECT_DIR$/attributes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59659094" vertical-offset="0" max-vertical-offset="704">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
           <folding />
         </state>
       </provider>
