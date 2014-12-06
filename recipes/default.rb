@@ -30,12 +30,5 @@ include_recipe 'elasticsearch::proxy'
 # setup monit for elasticsearch (need to account for Opswork already using monit)
 include_recipe 'opsworks_elasticsearch::monit'
 
+# setup useful plugins
 include_recipe 'elasticsearch::plugins'
-
-# execute 'disable default nginx site' do
-# 	command 'nxdissite default'
-# 	notifies :restart, resources(:service => 'nginx'), :immediately
-# 	only_if do
-# 		::File.exists?('/etc/nginx/sites-enabled/default')
-# 	end
-# end
