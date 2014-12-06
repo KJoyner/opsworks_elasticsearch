@@ -26,5 +26,6 @@ default[:elasticsearch][:discovery][:ec2][:tag] =  { 'opsworks:stack' => 'elasti
 default[:elasticsearch][:nginx][:allow_cluster_api] = true;
 default[:elasticsearch][:nginx][:port] = 80;
 
+default[:elasticsearch][:plugins]['elasticsearch/elasticsearch-cloud-aws']['version'] = '1.14.0'
 default[:elasticsearch][:plugins]['mobz/elasticsearch-head'] = {}
 

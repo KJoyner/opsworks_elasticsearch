@@ -3,7 +3,7 @@ service 'monit' do
 	action :nothing
 end
 
-template "#{node[:monit][:conf_dir]}/elasticsearch_monit.conf" do
+template "#{node[:monit][:conf_dir]}/elasticsearch.monitrc" do
 	source "elasticsearch_monitrc.conf.erb"
 
 	owner "root"
